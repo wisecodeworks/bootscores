@@ -24,7 +24,7 @@
 
         <header id="masthead" class="site-header" role="banner">
             <div class="site-branding container">
-                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.jpg" alt="<?php bloginfo( 'name' ); ?> Logo"></a></h1>
                 <p class="site-description"><?php bloginfo( 'description' ); ?></p>
             </div><!-- .site-branding -->
             <div class="nav-wrapper">
