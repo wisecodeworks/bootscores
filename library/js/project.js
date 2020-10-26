@@ -7,3 +7,8 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+
+function menuFunction(x) {
+  x.classList.toggle("change");
+}
