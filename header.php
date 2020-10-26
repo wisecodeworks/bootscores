@@ -29,7 +29,12 @@
             </div><!-- .site-branding -->
             <div class="nav-wrapper">
             	<div class="nav-container container">
-                <div class="menu-button">Menu</div>		
+			<div class="menu-button" onclick="menuFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+                	
                     <?php   wp_nav_menu( array(
                         'menu'              => 'primary',
                         'theme_location'    => 'primary',
