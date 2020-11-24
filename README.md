@@ -1,3 +1,7 @@
+wp_enqueue_script( ' jquery-migrate’, ‘//code.jquery.com/jquery-migrate-3.3.2.min.js’, );
+wp_script_add_data(‘jquery-migrate’, array(‘integrity’, ‘crossorigin’), array(‘sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA’,‘anonymous’));
+
+
 /* ---- GET ACQUAINTED ----
 
 This theme, like WordPress, is licensed under the GPL.
